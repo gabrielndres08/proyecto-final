@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Riot&display=swap');
+*
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  header .nav {
+    display: flex;
+  }
+  .nav li {
+    list-style:none;
+    margin: 19px;
+    cursor: pointer;
+  }
+  .primer-product {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .segundo-product {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .tercer-product {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    text-align: center;
+    color: rgb(255, 164, 44);
+  }
+  .caja {
+    width: 30%;
+    text-align: center;
+    margin: 15px;
+    font-size: 5vh;
+  }
+  .mapa iframe {
+    margin: 5px;
+    width: 50%;
+    height: 300px;
+    border-radius: 80px;
+    align-items: center;
+}
+  @media(min-width: 319px) and (max-width: 865px) {
+    .primer-product {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+      }
+      img {
+        width: 70%;
+      }
+      .segundo-product {
+        flex-direction: column;
+        width: 90%;
+        display: flex;
+      }
+      .tercer-product {
+        flex-direction: column;
+        width: 90%;
+        display: flex;
+      }
+      h1 {
+        text-align: center;
+        color: rgb(255, 164, 44);
+        font-size: 60%;
+      }
+      p {
+        font-size: 50%;
+      }
+      .caja {
+        width: 100%;
+        text-align: center;
+        margin: 15px;
+        font-size: 5vh;
+      }
+  }
+  
